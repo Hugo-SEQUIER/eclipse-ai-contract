@@ -16,3 +16,6 @@ wallet = "~/.config/solana/id.json"
 
 [scripts]
 test = "yarn run mocha -t 1000000 tests/"
+
+[networks.localnet]
+url = "https://staging-rpc.dev2.eclipsenetwork.xyz"
